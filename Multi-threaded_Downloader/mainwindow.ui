@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>515</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="newBtn">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>71</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>9999999</width>
+          <height>71</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>新建下载</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/icon/res/1228973.png</normaloff>:/icon/res/1228973.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="addBtn">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>71</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>71</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>继续下载</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/icon/res/1228983.png</normaloff>:/icon/res/1228983.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="uploadButton">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>71</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>上传</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/icon/res/1237022.png</normaloff>:/icon/res/1237022.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnServer">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>71</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>服务器</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/icon/res/1230429.png</normaloff>:/icon/res/1230429.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>上一任务</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/icon/res/1228977.png</normaloff>:/icon/res/1228977.png</iconset>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>下一任务</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/icon/res/1229004.png</normaloff>:/icon/res/1229004.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

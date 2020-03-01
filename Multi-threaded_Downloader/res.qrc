@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>res/1169786.png</file>
+        <file>res/1173003.png</file>
+        <file>res/1197016.png</file>
+        <file>res/1197034.png</file>
+        <file>res/1197036.png</file>
+        <file>res/1197037.png</file>
+        <file>res/1197040.png</file>
+        <file>res/1223169.png</file>
+        <file>res/1230005.png</file>
+        <file>res/1228973.png</file>
+        <file>res/1228977.png</file>
+        <file>res/1228983.png</file>
+        <file>res/1229004.png</file>
+        <file>res/1230429.png</file>
+        <file>res/1237022.png</file>
+        <file>res/jieshu.png</file>
+        <file>res/jixu.png</file>
+        <file>res/kaishi.png</file>
+        <file>res/shanchu.png</file>
+        <file>res/zanting.png</file>
+    </qresource>
+</RCC>
